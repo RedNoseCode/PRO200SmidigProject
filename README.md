@@ -1,4 +1,4 @@
-# PRO200-Gruppe14
+# PRO200-Gruppe 14
 
 ## Smidig gruppeprosjekt 2019 
 
