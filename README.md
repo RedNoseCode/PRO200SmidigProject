@@ -21,4 +21,4 @@ Gruppemedlemmer:
 
 - Didrik Espenes
 
-- Julian Pettersen -- Gitm master
+- Julian Pettersen -- Git master
