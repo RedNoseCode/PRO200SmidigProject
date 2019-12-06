@@ -17,7 +17,7 @@ Gruppemedlemmer:
 
 - Edgar Grane 
 
-- Herman Harlem -- Meme master
+- Herman Harlem -- Memelord
 
 - Didrik Espenes
 
