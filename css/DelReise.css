@@ -1,0 +1,11 @@
+#gridbox{
+    position: relative;
+    display: grid;
+    bottom: 20px;
+    z-index: 100;
+    color: green;
+}
+
+#infoBox{
+
+}
