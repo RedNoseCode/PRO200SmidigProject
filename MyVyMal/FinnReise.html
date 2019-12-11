@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link type="text/css" rel="stylesheet" href="css/Mal.css">
+    <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/FinnReise.css">
+    <title>Finn reise</title>
+</head>
+
+<body>
+
+    <!-- main container-->
+    <div id="container">
+    
+        <!--header with back-button and text-->
+        <header>
+            <div id="top-bar">
+                <a href="">
+                    <i id="back-arrow" class="material-icons">arrow_back</i>
+                </a>
+                <h2>MyVy</h2>
+            </div>
+        </header>
+
+        <!-- Main content-->
+        <main id="main-output">
+            <!--Lag innhold her!-->
+            <div class="search-jurney-container">
+                <h3 id="fra-text">Fra</h3>
+                <input id="fra-input" placeholder="Velg avreisepunkt">
+                <h3 id="til-text">Til</h3>
+                <input id="til-input" placeholder="Velg destinasjon">
+                <input id="date" placeholder="velg dato">
+            </div>
+            <div class="search-results">
+                <h2 id="foreslatte-reiser">Foreslåtte reiser</h2>
+                <div id="reise-liste">
+
+                </div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="script/jquery-3.4.1.min.js"></script>
+    <script src="script/TweenMax.min.js"></script>
+    <script src="script/Mal.js"></script>
+    <script src="js/finnReise.js"></script>
+    
+</body>
+
+</html>
+
