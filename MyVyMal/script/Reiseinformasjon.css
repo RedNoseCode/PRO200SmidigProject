@@ -95,7 +95,18 @@ h2{
 /*
 ********** Media Query for Iphone X **********
 */
+@media (max-width: 768px){
 
+    #map{
+        width: 100% !important;
+        margin: 5px 0px 5px 0px;
+    }
+    #textBoxTravelInfo{
+        text-align: justify;
+        font-size-adjust: inherit;
+    }
+    
+}
 
 
 /*
