@@ -1,0 +1,42 @@
+#map-div{
+    position: absolute;
+    border-style:solid;
+    border-width:2px;  
+    border-color: black;
+    height: 60%;
+    width: 90%;
+    left: 5%;
+    top: 12%;
+}
+
+#placeholder-map{
+    position: absolute;
+    
+}
+
+#progress-bar{
+    position: absolute;
+    border-style:solid;
+    border-width:2px;  
+    border-color: black;
+    width: 70%;
+    left: 15%;
+    height: 5%;
+    bottom: 17%;
+}
+
+#completed{
+    position: absolute;
+    background-color: green;
+    height: 100%;
+    width: 30%;
+}
+
+#ankomst-varsel{
+    position: absolute;
+    bottom: 8%;
+    width: 60%;
+    left: 20%;
+    height: 5%;
+}
+
