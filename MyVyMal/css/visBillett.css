@@ -1,6 +1,24 @@
 #qr-code{
     position: absolute;
     width: 70%;
-    top: 40%;
+    bottom: 40%;
     left: 15%;
+}
+
+#billett-nummer{
+    position: absolute;
+    text-align: center;
+    color: white;
+    width: 60%;
+    bottom: 20%;
+    left: 20%;
+}
+
+#referanse-nummer{
+    position: absolute;
+    text-align: center;
+    color: white;
+    bottom: 10%;
+    width: 60%;
+    left: 20%;
 }
