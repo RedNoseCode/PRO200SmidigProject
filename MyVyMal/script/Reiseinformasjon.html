@@ -3,42 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link type="text/css" rel="stylesheet" href="Reiseinformasjon.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">    
     <link type="text/css" rel="stylesheet" href="css/normalize.css">
+    <link type="text/css" rel="stylesheet" href="Reiseinformasjon.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Reiseinformasjon</title>
 </head>
 
 <body>
 
-    <!-- main container-->
-    <div id="container">
-    
-        <!--header with back-button and text-->
-        <header>
-            <div id="top-bar">
-                <a href="">
-                    <i id="back-arrow" class="material-icons">arrow_back</i>
-                </a>
-                <h2>MyVy</h2>
-            </div>
-        </header>
-
        <!------Container m.a.o body for hele rammeverket----->
 <div class="container">
 
     <!------Class for header....Tilbake-knapp, WY Logo etc.----->  
-      <div class="header">header
+      <div class="header">
+          <img id="logo_header" src="../components/Vy_Farger_Logo/PNG/vy.logo.final_secondary-black.png">
       <ul></ul></div>
       
     <!--------Google maps class----->    
-      <div class="MAP">MAP</div>
+      <div class="MAP">
+        <img class="helekart" src="../../helekart2.png">
+      </div>
       
       <!------Footer, tid igjen, ankomst etc----->
-      <div class="footer">footer</div>
-    </div>
+      <div class="footer">
 
+        <div id="neste_stasjon">
+            
+            <h4>Neste stasjon:</h4>
+            <p>Vassbotn Stasjon</p>
+        </div>
+
+        <div id="estimert_ankomsttid">
+            <h4>Estimert ankomsttid:</h4>
+            <p>Det er forsinkelser på 5 minutter som påvirker din reise</p>
+            <p>Du vil ankomme Fauske 8:35</p>
+        </div>
+
+        <div id="hastighet">
+            <h4>Hastighet:</h4>
+            <p>100 km/t</p>
+        </div>
+
+      </div>
     </div>
 
     <script src="script/jquery-3.4.1.min.js"></script>
@@ -46,6 +53,5 @@
     <script src="script/Reiseinformasjon.js"></script>
     
 </body>
-
 </html>
 
